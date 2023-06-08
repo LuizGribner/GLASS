@@ -1,0 +1,32 @@
+form#fContato{
+    width: 350px;
+    margin: auto;
+}
+fieldset#usuario{
+    background-image: url("../_imagens/icone-contato.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+fieldset#endereco{
+    background-image: url("../_imagens/icone-endereco.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+fieldset#mensagem{
+    background-image: url("../_imagens/icone-mensagem.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    }
+textarea#caixa{
+    background-color: transparent;
+    resize: none;
+}
+fieldset#pedido{
+    background-image: url("../_imagens/icone-pagamento.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+input#botao{
+    position: relative;
+    left:115px ;
+}

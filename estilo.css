@@ -1,0 +1,226 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+    }
+    div#interface {
+        background-color: white;
+        box-shadow: 0px 0px 15px white;
+        font-family: Arial, sans-serif;
+        margin: -20px 200px -20px;
+        padding: 20px;
+        width: 900px;
+    }
+    a {text-decoration:none ;
+    }
+    a:hover {
+        color:currentColor;
+        text-decoration: underline;
+    }
+    header#cabecalho img#icone {
+        left: 900px;
+        position: absolute; 
+        top: 20px;
+    }
+    header#cabecalho {
+        border-bottom: 2px black solid;
+        height: 110px;  
+    }
+    header#cabecalho h1{
+        color: grey;
+        font-family: 'FonteLogo', sans-serif;
+        font-size: 40pt;
+        left: 5px;
+        position: relative;
+        text-shadow: 1px 1px 1px black;
+        top:0px;
+    }
+    header#cabecalho h2 {
+        color: grey;
+        color:grey ;
+        font-family: 'FonteLogo', sans-serif;
+        font-size:20pt;
+        margin-top:-20px;
+        position: relative;
+    }
+          
+
+    figure.foto {position: relative}
+    figure.foto img {width: 70%; height: 70%;}
+    figure.foto img {width: 70%; height: 70%;}
+    figure.foto figcaption {
+        background-color: rgba(0, 0, 0, .4) ;
+        color: white;
+        height: 99%;
+        opacity: 0;
+        padding: 0px;
+        position: absolute;
+        top: 0px;
+        transition: opacity 1s;
+        width: 70%;
+    }
+    figure.foto:hover figcaption {
+        opacity: 1;
+    }
+    nav {
+        color: white;
+    }
+    nav#menu ol#homelist{
+        top: -200px;
+    }
+    nav#menu ol {
+        font-family: franklin gothic medium;
+        left: 180px;
+        list-style: none;
+        position: relative;
+        text-transform: uppercase;
+        top: -170px;
+    }
+    nav#menu li {
+        background-color: white;
+        display: inline-block;
+        margin: 1px;
+        padding: 3px;
+    }
+    nav#menu h1 {
+        display: none;
+    }
+    nav#menu li:hover{
+    background-color:black;
+    transition: 0.5s;
+    
+    }
+    nav#menu a {
+        text-decoration: none;
+    }
+    section#corpo{
+        border-right: 2px solid black;
+        display: block;
+        float: left;
+        padding-right: 10px;
+        width: 425px;
+    }
+    aside#lateral{
+        display: block;
+        float: right;
+        width: 425px;
+    }
+    footer#rodape{
+       border-top: 2px solid black;        
+       clear: both;        
+    }
+    footer#rodape p {
+        text-align: center;
+    }
+    table#tabelaspec {
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table#tabelaspec td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+    table#tabelaspec td.colunesq {
+        background-color: grey;
+        color: white;
+        text-align: right;
+        vertical-align: middle;
+    }
+    table#tabelaspec td.colundir {
+        background-color: darkgray;
+        color: white;
+        vertical-align: top;
+    }
+    table#tabelaspec caption {
+        color: black;
+        font-family: 'FonteLogo'; 
+    }
+    table#tabelaspec caption span{
+        color: black;
+        display: block;
+        float: right;
+        font-size: 7pt;
+        margin-top: 10px;
+        stroke: black;
+    }
+    article#noticia-principal h2{
+        background-color:gray;
+        color: white;
+        font-size: 12pt;
+        margin-top: 15px;
+        margin: 10px 0px 10px 0px;
+        padding: 5px 0px 5px 0px;
+        text-align: center;
+    }
+    article#noticia-principal hgroup span {
+        color: black;
+        display: block;
+        float: right;
+        font-size: 8pt;
+        margin-top: -9px;
+        stroke: black;
+    }
+    article#noticia-principal hgroup span#atualizado{
+        display: block;
+        float: left;        
+        }
+    aside#lateral h2 {
+        color: grey;
+        font-family: 'FonteLogo';
+        font-size: 30px;
+        margin-top: -30px;
+        text-align: center;
+    }
+    aside#lateral h3 {
+        background-color: gray;
+        color: white;
+        text-align: center;
+        
+    }
+    aside#lateral {
+        background-color: #dddddd;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .4) ;
+        display: block;
+        float: right;
+        margin-right:5px;
+        margin-top: 10px;
+        padding: 40px ;
+        width: 350px;
+        
+
+    }
+    article#corpo-full hgroup#centro h3 {
+        color: gray;
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    article#corpo-full hgroup#centro h1 {
+        font-family:"FonteLogo";
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    article#corpo-full hgroup#centro h2 {
+        color: gray;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    figure.video1 h2{
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+    h4.legenda-video{
+        display: block;
+        position: relative;
+        top: -20px;
+        left: 145px;
+        font-family: Arial;
+        color: gray;
+        font-size: 14px;
+    }
+    section#video2 video#filme3{
+        width:350px;
+        height:190px;
+    }

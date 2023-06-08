@@ -1,0 +1,12 @@
+@charset "UTF-8";
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+h1#top{
+    color: grey;
+    display: block;
+    position: relative;
+    top: -20px;
+    left: 350px;
+}
